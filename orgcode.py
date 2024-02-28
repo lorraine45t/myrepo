@@ -19,9 +19,7 @@ except ModuleNotFoundError:
     install('pyserial')
 
 def handler(signal_received, frame):
-    """
-    Nicely handle CTRL+C exit
-    """
+#not need
     if current_process().name == "MainProcess":
         pretty_print(
             get_string("sigint_detected")
