@@ -5,7 +5,7 @@ from os import system as ossystem
 from platform import machine as osprocessor
 from platform import system
 import sys
-
+#ar duino
 from configparser import ConfigParser
 from pathlib import Path
 
